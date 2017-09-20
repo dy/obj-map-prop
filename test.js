@@ -23,3 +23,4 @@ assert.deepEqual(map({
 	d: 1,
 	f: 'foo'
 })
+
