@@ -1,0 +1,34 @@
+{
+  "name": "obj-map-prop",
+  "version": "1.0.0",
+  "description": "Map object properties by a dict of map functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfcreative/obj-map-prop.git"
+  },
+  "keywords": [
+    "obj-map-prop",
+    "map",
+    "obj-map",
+    "map-obj",
+    "object-map",
+    "map-object",
+    "update",
+    "diff",
+    "difference",
+    "patch",
+    "object",
+    "compare",
+    "change"
+  ],
+  "author": "Dima Yv <df.creative@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dfcreative/obj-map-prop/issues"
+  },
+  "homepage": "https://github.com/dfcreative/obj-map-prop#readme"
+}
