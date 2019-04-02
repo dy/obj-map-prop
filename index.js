@@ -6,8 +6,14 @@
 
 'use strict'
 
-module.exports = function mapProp (obj, dict) {
+module.exports = function mapProp (obj, dict, rest) {
 	var out = {}
+
+  if (rest) {
+    for (var prop in obj) {
+      out[prop] = obj[prop]
+    }
+  }
 
 	for (var prop in dict) {
 		if (prop in obj) {
